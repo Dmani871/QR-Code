@@ -6,7 +6,7 @@ function App() {
     <Container>
       <Card>
         <VStack>
-          <Image src={qrCode} alt='QR Code'></Image>
+          <Image src={qrCode} alt='QR Code' borderRadius='xl'></Image>
           <Heading as='h1'>
             Improve your front-end skills by building projects
           </Heading>
