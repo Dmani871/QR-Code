@@ -4,11 +4,12 @@ import App from './App';
 import { ChakraProvider } from '@chakra-ui/react'
 import { extendTheme } from '@chakra-ui/react'
 import Card from './styles/Card';
+import "@fontsource/outfit"
 
 const theme = extendTheme({
   fonts: {
-    heading: 'Ubuntu Mono',
-    body: 'Ubuntu Mono',
+    heading: 'Outfit',
+    body: 'Outfit',
   },
   colors: {
     white: 'hsl(0, 0%, 100%)',
