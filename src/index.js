@@ -4,7 +4,12 @@ import App from './App';
 import { ChakraProvider } from '@chakra-ui/react'
 import { extendTheme } from '@chakra-ui/react'
 import Card from './styles/Card';
+import Heading from './styles/Heading';
+import Text from './styles/Text';
 import "@fontsource/outfit"
+
+
+
 
 const theme = extendTheme({
   fonts: {
@@ -28,13 +33,13 @@ const theme = extendTheme({
     },
   },
   components: {
-    Card,
+    Card,Heading,Text
   },
 })
 ReactDOM.render(
   <ChakraProvider theme={theme}>
-      <App />
-   </ChakraProvider>,
+    <App />
+  </ChakraProvider>,
   document.getElementById('root')
 );
 

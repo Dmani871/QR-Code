@@ -7,10 +7,10 @@ function App() {
       <Card>
         <VStack>
           <Image src={qrCode} alt='QR Code'></Image>
-          <Heading color='blue'>
+          <Heading as='h1'>
             Improve your front-end skills by building projects
           </Heading>
-          <Text fontSize='15px' color='gray.100'>
+          <Text>
             Scan the QR code to visit Frontend Mentor and take your coding skills to the next level
           </Text>
         </VStack>
