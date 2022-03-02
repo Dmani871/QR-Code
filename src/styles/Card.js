@@ -6,6 +6,8 @@ const Card = {
       background: 'white',
       alignItems: 'center',
       gap: 6,
+      borderRadius: 'xl',
+      boxShadow: 'xl'
     },
     // Two variants: rounded and smooth
     variants: {
@@ -13,16 +15,11 @@ const Card = {
         padding: 8,
         borderRadius: 'xl',
         boxShadow: 'xl',
-      },
-      smooth: {
-        padding: 6,
-        borderRadius: 'base',
-        boxShadow: 'md',
-      },
+      }
     },
     // The default variant value
     defaultProps: {
-      variant: 'smooth',
+      variant: 'rounded',
     },
   }
 
