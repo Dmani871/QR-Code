@@ -1,9 +1,9 @@
-import { Container, Heading, Image, VStack, Text } from '@chakra-ui/react';
+import { Container, Heading, Image, VStack, Text, Box} from '@chakra-ui/react';
 import Card from './components/Card';
 import qrCode from './assets/image-qr-code.png'
 function App() {
   return (
-    <Container>
+    <Container centerContent={true} justify="center" mt={70}>
       <Card>
         <VStack>
           <Image src={qrCode} alt='QR Code' borderRadius='xl'></Image>
@@ -15,10 +15,10 @@ function App() {
           </Text>
         </VStack>
       </Card>
-      <div class="attribution">
+      <Box>
         Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
         Coded by <a href="#">Dmani Barnett</a>.
-      </div>
+      </Box>
     </Container>
   );
 }
