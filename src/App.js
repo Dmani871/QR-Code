@@ -16,8 +16,8 @@ function App() {
         </VStack>
       </Card>
       <Box>
-        Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
-        Coded by <a href="#">Dmani Barnett</a>.
+        Challenge by <a href="https://www.frontendmentor.io?ref=challenge">Frontend Mentor</a>.
+        Coded by <a href="https://www.frontendmentor.io/profile/Dmani871">Dmani Barnett</a>.
       </Box>
     </Container>
   );
