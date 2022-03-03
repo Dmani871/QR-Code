@@ -1,4 +1,4 @@
-import { Heading, Image, VStack, Text, Box, Container } from '@chakra-ui/react';
+import { Heading, Image, VStack, Text} from '@chakra-ui/react';
 import Card from './components/Card';
 import qrCode from './assets/image-qr-code.png'
 function App() {
