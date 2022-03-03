@@ -15,9 +15,11 @@ function App() {
           </Text>
         </VStack>
       </Card>
+      <div class="attribution">
+        Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+        Coded by <a href="#">Dmani Barnett</a>.
+      </div>
     </Container>
-
-
   );
 }
 
