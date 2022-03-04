@@ -1,4 +1,4 @@
-import { Heading, Image, VStack, Text, Flex, Box, Link } from '@chakra-ui/react';
+import { Heading, Image, VStack, Text, Flex, Link } from '@chakra-ui/react';
 import { ExternalLinkIcon } from '@chakra-ui/icons'
 import Card from './components/Card';
 import qrCode from './assets/image-qr-code.png'
