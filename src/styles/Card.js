@@ -6,15 +6,12 @@ const Card = {
     background: 'white',
     borderRadius: 'xl',
     boxShadow: 'xl',
-    height: '25%',
-    width:'25%',
-    mx:"auto",
-    my:"25%"
+    width: '20vw'
   },
   // Two variants: rounded and smooth
   variants: {
     rounded: {
-      padding: 2,
+      padding: 5,
       borderRadius: 'xl',
       boxShadow: 'xl',
     }
